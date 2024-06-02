@@ -106,3 +106,5 @@ foreach (var customer in customers)
     
     Console.WriteLine(customer.CustomerNumber);
 }
+
+
