@@ -93,7 +93,7 @@ foreach (var customer in customers)
 {
     if (customer is IndividualCustomer)
     {
-        ((IndividualCustomer)customer).
+        string id = ((IndividualCustomer)customer).NationalIdentity;
     }
 
     Console.WriteLine(customer.CustomerNumber);
