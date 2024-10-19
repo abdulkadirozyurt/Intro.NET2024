@@ -20,10 +20,7 @@ public class CourseManager
     }
 
     public List<Course> GetAll()
-    {
-        // business rules
-
-
+    {// business rules
         return _courseDal.GetAll();
     }
 
