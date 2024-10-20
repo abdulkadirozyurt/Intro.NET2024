@@ -32,8 +32,7 @@ public class EfCourseDal : ICourseDal
 
     public List<Course> GetAll()
     {
-
-        // burada db işlemleri yapılır
+        // database operations
         return courses;
     }
 

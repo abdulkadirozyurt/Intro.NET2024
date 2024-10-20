@@ -1,12 +1,18 @@
-﻿using Intro.Business;
-using Intro.Entities;
+﻿using Intro.Entities;
 using Intro.DataAccess.Concrete;
+using Intro.Business.Concrete;
+
+
+// variables ---> camelCase
+#region Variables
 
 string message = "Krediler";
 int term = 12;
 double amount = 100000.5;
 
-// variables ---> camelCase
+#endregion
+
+#region Conditions
 bool isAuthenticated = true;
 
 // condition
@@ -18,11 +24,16 @@ else
 {
     Console.WriteLine("Sisteme giriş yap.");
 }
+#endregion
 
-
+#region Arrays
 string[] loans = { "Kredi1", "Kredi2", "Kredi3", "Kredi4", "Kredi5" };
 string[] loans2 = new string[] { "Kredi1", "Kredi2", "Kredi3", "Kredi4", "Kredi5" };
 string[] loans3 = new string[6];
+#endregion
+
+
+
 
 Console.WriteLine();
 Console.WriteLine();
@@ -43,7 +54,6 @@ foreach (var course in courses)
 
 Console.WriteLine("--------------------------------------------------------");
 Console.WriteLine("--------------------------------------------------------");
-
 
 
 IndividualCustomer customer1 = new IndividualCustomer()

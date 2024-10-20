@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Intro.DataAccess.Abstract;
 
-public  interface ICourseDal
+public interface ICourseDal
 {
     List<Course> GetAll();
     void Add(Course course);
